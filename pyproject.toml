@@ -6,7 +6,6 @@ authors = [
     {name = "Neal W Morton", email = "mortonne@gmail.com"}
 ]
 dependencies = [
-    "git+https://github.com/mortonne/datascipsych",
     "polars",
     "jupyterlab",
 ]
