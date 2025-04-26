@@ -28,6 +28,3 @@ def convert_excel_to_csv(excel_file, csv_file=None):
     if csv_file is None:
         csv_file = Path(excel_file).with_suffix(".csv")
     df.write_csv(csv_file)
-
-
-get_sample_data()
