@@ -6,7 +6,7 @@ authors = [
     {name = "Neal W Morton", email = "mortonne@gmail.com"}
 ]
 dependencies = [
-    "polars",
+    "polars~=1.27.1",
     "jupyterlab",
 ]
 
