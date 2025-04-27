@@ -8,6 +8,8 @@ authors = [
 dependencies = [
     "polars~=1.27.1",
     "jupyterlab",
+    "xlsxwriter",
+    "fastexcel",
 ]
 
 [build-system]
