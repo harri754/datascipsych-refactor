@@ -1,5 +1,5 @@
 [project]
-name = "datascipsych-refactor"
+name = "refactor"
 version = "0.1.0"
 description = "Code project to demonstrate refactoring methods."
 authors = [
