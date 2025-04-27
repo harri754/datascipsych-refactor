@@ -21,9 +21,11 @@ def convert_excel_to_csv(excel_file, csv_file=None):
     Convert an Excel file to a CSV file.
 
     Args:
-        excel_file: Path to an Excel file.
-        csv_file: Path to a CSV file. If not specified, the path to the CSV file will
-          be the same as the Excel file but with a .csv file extension.
+
+      excel_file: Path to an Excel file.
+
+      csv_file: Path to a CSV file. If not specified, the path to the CSV file 
+        will be the same as the Excel file but with a .csv file extension.
     """
     df = pl.read_excel(excel_file)
     if csv_file is None:
