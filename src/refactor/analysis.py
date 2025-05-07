@@ -15,6 +15,9 @@ def get_sample_data():
     )
     return df
 
+def condition_accuracy(df):
+    m = df.group_by("condition").agg(pl.col("correct").mean()).sort("condition")
+    return m
 
 def convert_excel_to_csv(excel_file, csv_file = None):
     """
