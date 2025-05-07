@@ -10,6 +10,7 @@ dependencies = [
     "jupyterlab",
     "xlsxwriter",
     "fastexcel",
+    "datascipsych@git+https://github.com/mortonne/datascipsych",
 ]
 
 [build-system]
